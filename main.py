@@ -6,10 +6,11 @@ price = 0
 
 Name = input("Enter student name : ")
 
-print(f"""Welcome {Name}!""")
+print(f"""Welcome {Name}! Here is the menu: """)
 
 def receipt(item_name, price):
     print("\n----- RECEIPT -----")
+    print(Name)
     print("Item:", item_name)
     print("Price: $", price)
     print("-------------------")
